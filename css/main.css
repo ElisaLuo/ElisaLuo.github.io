@@ -1,0 +1,85 @@
+/*nav bar*/
+.top.menu{
+    height: 13vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    font-size: 1.4em;
+}
+.ui.menu .item{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    position: static;
+}
+.header{
+    letter-spacing: 5px;
+}
+
+/*cover pictures*/
+.cover{
+    min-height: 100%;
+    min-width: 1024px;
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+.name{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 5em;
+    color: white;
+    letter-spacing: 20px;
+}
+.description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-51.5%, 200%);
+    font-size: 1em;
+    letter-spacing: 6px;
+}
+
+/*body*/
+.about{
+    position: relative;
+    height: 600px;
+    margin-top: 100vh;
+    z-index: 1;
+    background-color: white;
+}
+.about a{
+    position: absolute;
+    margin-top: -13vh;
+    padding-top: 13vh;
+}
+.projects{
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    background-color: white;
+}
+.projects a{
+    position: absolute;
+    margin-top: -13vh;
+    padding-top: 13vh;
+}
+.blog{
+    position: relative;
+    height: 600px;
+    z-index: 1;
+    background-color: white;
+}
+.blog a{
+    position: absolute;
+    margin-top: -13vh;
+    padding-top: 13vh;
+}
+.title{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 75%);
+}
